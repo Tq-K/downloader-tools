@@ -1,0 +1,130 @@
+body {
+    font-family: poppins;
+}
+
+h1 {
+    /*            background: #f70000;*/
+    /*            background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);*/
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.col-md-3 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.header {
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+    /*    font-weight: bold;*/
+    font-family: poppins;
+    display: block;
+}
+
+.yt {
+    background: #F70000;
+/*    box-shadow: 0px 0px 15px 0px black;*/
+    border-bottom:2px solid chartreuse;
+}
+
+.ig {
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+}
+
+.fb {
+    background: #4267B2;
+}
+
+.mr {
+    background: #484A47;
+}
+
+.more {
+    color: aliceblue;
+}
+
+a:hover {
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.col-md-3 {
+    margin: 3px auto;
+}
+
+.col-12 h2 {
+    text-align: center;
+    margin-top: 30px;
+    color: #847A7A;
+    margin-bottom: 50px;
+}
+
+.col-md-8 {
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+input {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 10px;
+    outline: none;
+    padding: 6px 0;
+    padding-left: 10px;
+    border: 1px solid #F70000;
+}
+
+span {
+    margin: 20px auto;
+    /*    background: red;*/
+    text-align: center;
+
+}
+
+span a {
+    color: white;
+    background: #F70000;
+    border: 1px solid;
+    display: block;
+    width: 40%;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 0;
+}
+
+
+*/
+/*
+.ads {
+    border: 1px dotted;
+    background: #EADADA;
+    height: 80px;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+*/
+
+@media(max-width: 576px) {
+
+    .col-md-3 {
+        width: 50%;
+        margin: 15px auto;
+    }
+}
